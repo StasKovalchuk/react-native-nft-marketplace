@@ -11,6 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/26d6d5f1-57e4-49b2-b795-7108012f18b3"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -25,6 +29,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26d6d5f1-57e4-49b2-b795-7108012f18b3"
+      }
+    },
+    "owner": "bystanislav",
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
